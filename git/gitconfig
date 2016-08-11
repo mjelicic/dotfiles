@@ -125,3 +125,10 @@
   enabled = true
 [include]
   path = .gitconfig.user
+[filter "lfs"]
+	clean = git-lfs clean %f
+	smudge = git-lfs smudge %f
+	required = true
+[user]
+	name = Miro Jelicic
+	email = jelicic00@gmail.com
